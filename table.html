@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>data table</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://cdn.datatables.net/2.0.1/css/dataTables.bootstrap5.css">
+  </head>
+  <body>
+     <div class="container py-5">
+     <table id="example" class="table table-striped" style="width:100%">
+    <thead>     
+	<tr>
+        <th>S.No</th>
+        <th> Customer Name</th>
+        <th>Age</th>
+        <th>Phone</th>
+        <th>Location</th>
+        <th>created_at</th>
+    </tr>
+    </thead>
+    <tbody>
+	<tr>
+        <td>1</td>
+        <td>Sam</td>
+        <td>28</td>
+        <td>8765404398</td>
+        <td>Bangalore</td>
+        <td>2022-03-01 8:00pm</td>
+    </tr>
+
+	<tr>
+        <td>2</td>
+        <td>Deva</td>
+        <td>38</td>
+        <td>8765404391</td>
+        <td>kerala</td>
+        <td>2022-03-02  8:01pm</td>
+    </tr>
+
+	<tr>
+        <td>3</td>
+        <td>Nisha</td>
+        <td>38</td>
+        <td>8765404391</td>
+        <td>kerala</td>
+        <td>2022-03-03 8:02pm</td>
+    </tr>
+
+	<tr>
+        <td>4</td>
+        <td>Kunal</td>
+        <td>38</td>
+        <td>8765404391</td>
+        <td>kerala</td>
+        <td>2022-03-04  8:03pm</td>
+    </tr>
+
+	<tr>
+        <td>5</td>
+        <td>Keerthi</td>
+        <td>38</td>
+        <td>8765404391</td>
+        <td>kerala</td>
+        <td>2022-03-05  8:04pm</td>
+    </tr>
+
+	<tr>
+        <td>6</td>
+        <td>John</td>
+        <td>38</td>
+        <td>8765404391</td>
+        <td>kerala</td>
+        <td>2022-03-06  8:05pm</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>kiran</td>
+        <td>40</td>
+        <td>7865404391</td>
+        <td>Hyderabad</td>
+        <td>2022-03-07  8:06pm</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>prem kumar</td>
+        <td>25</td>
+        <td>9265404391</td>
+        <td>chennai</td>
+        <td>2022-03-08  8:07pm</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td>Neeha</td>
+        <td>21</td>
+        <td>8965404391</td>
+        <td>Bangalore</td>
+        <td>2022-03-09  8:08pm</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>Nandhu</td>
+        <td>20</td>
+        <td>8565404391</td>
+        <td>Bangalore</td>
+        <td>2022-03-10  8:09pm</td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td>priya</td>
+        <td>21</td>
+        <td>8766544391</td>
+        <td>chittor</td>
+        <td>2022-03-11  8:10pm</td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>Trisha</td>
+        <td>24</td>
+        <td>8765404453</td>
+        <td>kerala</td>
+        <td>2022-03-12  8:11pm</td>
+    </tr>
+
+	<tr>
+        <td>13</td>
+        <td>chandu</td>
+        <td>25</td>
+        <td>7655404398</td>
+        <td>chennai</td>
+        <td>2022-03-13  8:12pm</td>
+    </tr>
+
+	<tr>
+        <td>14</td>
+        <td>siddarth</td>
+        <td>24</td>
+        <td>8765604391</td>
+        <td>Anantapur</td>
+        <td>2022-03-14  8:13pm</td>
+    </tr>
+
+	<tr>
+        <td>15</td>
+        <td>chitra</td>
+        <td>22</td>
+        <td>7685404391</td>
+        <td>Delhi</td>
+        <td>2022-03-15  8:14pm</td>
+    </tr>
+
+	<tr>
+        <td>16</td>
+        <td>Hemanth kumar</td>
+        <td>32</td>
+        <td>8765404456</td>
+        <td>vizag</td>
+        <td>2022-03-16  8:15pm</td>
+    </tr>
+
+	<tr>
+        <td>17</td>
+        <td>Ajeeth khan</td>
+        <td>25</td>
+        <td>9435404391</td>
+        <td>Mumbai</td>
+        <td>2022-03-17  8:16pm</td>
+    </tr>
+
+	<tr>
+        <td>18</td>
+        <td>Akshay kumar</td>
+        <td>22</td>
+        <td>8765044391</td>
+        <td>Anantapur</td>
+        <td>2022-03-18  8:17pm</td>
+    </tr>
+
+    <tr>
+        <td>19</td>
+        <td>Nanditha</td>
+        <td>21</td>
+        <td>7865404492</td>
+        <td>Anantapur</td>
+        <td>2022-03-19  8:18pm</td>
+    </tr>
+
+    <tr>
+        <td>20</td>
+        <td>Firdoz</td>
+        <td>25</td>
+        <td>9625404391</td>
+        <td>Hyderabad</td>
+        <td>2022-03-20  8:19pm</td>
+    </tr>
+
+    <tr>
+        <td>21</td>
+        <td>Jaya prakash</td>
+        <td>21</td>
+        <td>7085404391</td>
+        <td>Bangalore</td>
+        <td>2022-03-21  8:20pm</td>
+    </tr>
+
+    <tr>
+        <td>22</td>
+        <td>sreeja</td>
+        <td>26</td>
+        <td>8565505391</td>
+        <td>kadapa</td>
+        <td>2022-03-22  8:21pm</td>
+    </tr>
+
+    <tr>
+        <td>23</td>
+        <td>charani</td>
+        <td>22</td>
+        <td>9416544391</td>
+        <td>chittor</td>
+        <td>2022-03-23  8:22pm</td>
+    </tr>
+
+    <tr>
+        <td>24</td>
+        <td>Manisha</td>
+        <td>24</td>
+        <td>8765404601</td>
+        <td>Maharastra</td>
+        <td>2022-03-24  8:23pm</td>
+    </tr>
+
+    <tr>
+        <td>25</td>
+        <td>kanishka</td>
+        <td>30</td>
+        <td>8765409701</td>
+        <td>chennai</td>
+        <td>2022-03-25  8:24pm</td>
+    </tr>
+
+    <tr>
+        <td>26</td>
+        <td>Samantha</td>
+        <td>30</td>
+        <td>8765404303</td>
+        <td>Bangalore</td>
+        <td>2022-03-26  8:25pm</td>
+    </tr>
+
+	<tr>
+        <td>27</td>
+        <td>krishna</td>
+        <td>25</td>
+        <td>8765143391</td>
+        <td>Delhi</td>
+        <td>2022-03-27  8:26pm</td>
+    </tr>
+
+	<tr>
+        <td>28</td>
+        <td>shiva</td>
+        <td>32</td>
+        <td>7765404391</td>
+        <td>Hanisha</td>
+        <td>2022-03-28  8:27pm</td>
+    </tr>
+
+	<tr>
+        <td>29</td>
+        <td>kanna</td>
+        <td>20</td>
+        <td>9765404391</td>
+        <td>East godavari</td>
+        <td>2022-03-29  8:28pm</td>
+    </tr>
+
+	<tr>
+        <td>30</td>
+        <td>Liya</td>
+        <td>38</td>
+        <td>8765404931</td>
+        <td>Jammu and kashmir</td>
+        <td>2022-03-30  8:29pm</td>
+    </tr>
+
+	<tr>
+        <td>31</td>
+        <td>Ganesh</td>
+        <td>60</td>
+        <td>8761404391</td>
+        <td>Guntur</td>
+        <td>2022-04-01  8:30pm</td>
+    </tr>
+
+    <tr>
+        <td>32</td>
+        <td>Raathod</td>
+        <td>29</td>
+        <td>7015404391</td>
+        <td>Hyderabad</td>
+        <td>2022-04-02  8:31pm</td>
+    </tr>
+
+    <tr>
+        <td>33</td>
+        <td>kalyan</td>
+        <td>25</td>
+        <td>9065404391</td>
+        <td>chennai</td>
+        <td>2022-04-03  8:32pm</td>
+    </tr>
+
+    <tr>
+        <td>34</td>
+        <td>prema</td>
+        <td>22</td>
+        <td>8965404591</td>
+        <td>Bangalore</td>
+        <td>2022-04-04  8:33pm</td>
+    </tr>
+
+    <tr>
+        <td>35</td>
+        <td>Rudra</td>
+        <td>20</td>
+        <td>7465404391</td>
+        <td>Mangaloore</td>
+        <td>2022-04-05  8:34pm</td>
+    </tr>
+
+    <tr>
+        <td>36</td>
+        <td>Radha</td>
+        <td>26</td>
+        <td>8766555391</td>
+        <td>Hyderabad</td>
+        <td>2022-04-06  8:35pm</td>
+    </tr>
+
+    <tr>
+        <td>37</td>
+        <td>Tulasi</td>
+        <td>30</td>
+        <td>8765404400</td>
+        <td>kerala</td>
+        <td>2022-04-07  8:36pm</td>
+    </tr>
+
+	<tr>
+        <td>38</td>
+        <td>parvathi</td>
+        <td>20</td>
+        <td>8855404398</td>
+        <td>kurnool</td>
+        <td>2022-04-08  8:37pm</td>
+    </tr>
+
+	<tr>
+        <td>39</td>
+        <td>Balaji</td>
+        <td>22</td>
+        <td>9143260439</td>
+        <td>Anantapur</td>
+        <td>2022-04-09  8:38pm</td>
+    </tr>
+
+	<tr>
+        <td>40</td>
+        <td>Roshan Zameer</td>
+        <td>22</td>
+        <td>7685404304</td>
+        <td>Hindupur</td>
+        <td>2022-04-10  8:39pm</td>
+    </tr>
+
+	<tr>
+        <td>41</td>
+        <td>Hema</td>
+        <td>45</td>
+        <td>8701404456</td>
+        <td>vizag</td>
+        <td>2022-04-11  8:40pm</td>
+    </tr>
+
+	<tr>
+        <td>42</td>
+        <td>Ajeetha</td>
+        <td>34</td>
+        <td>7635404391</td>
+        <td>Nellore</td>
+        <td>2022-04-12  8:41pm</td>
+    </tr>
+
+	<tr>
+        <td>43</td>
+        <td>Akshaya</td>
+        <td>22</td>
+        <td>8765000391</td>
+        <td>Anantapur</td>
+        <td>2022-04-13  8:42pm</td>
+    </tr>
+
+    <tr>
+        <td>44</td>
+        <td>Nanda kishore</td>
+        <td>30</td>
+        <td>9965404492</td>
+        <td>Anantapur</td>
+        <td>2022-04-14  8:43pm</td>
+    </tr>
+
+    <tr>
+        <td>45</td>
+        <td>Sunny</td>
+        <td>22</td>
+        <td>9025404391</td>
+        <td>Hyderabad</td>
+        <td>2022-04-15  8:44pm</td>
+    </tr>
+
+    <tr>
+        <td>46</td>
+        <td>Jaya</td>
+        <td>27</td>
+        <td>7000404391</td>
+        <td>chennai</td>
+        <td>2022-04-16  8:45pm</td>
+    </tr>
+
+    <tr>
+        <td>47</td>
+        <td>Guna</td>
+        <td>25</td>
+        <td>8000000391</td>
+        <td>Vizag</td>
+        <td>2022-04-17  8:46pm</td>
+    </tr>
+
+    <tr>
+        <td>48</td>
+        <td>cheri</td>
+        <td>22</td>
+        <td>9416544000</td>
+        <td>Tirupathi</td>
+        <td>2022-04-18  8:47pm</td>
+    </tr>
+
+    <tr>
+        <td>49</td>
+        <td>Pandu</td>
+        <td>40</td>
+        <td>8765404001</td>
+        <td>Gujarat</td>
+        <td>2022-04-19  8:48pm</td>
+    </tr>
+
+    <tr>
+        <td>50</td>
+        <td>Haryana</td>
+        <td>30</td>
+        <td>8005409701</td>
+        <td>kadapa</td>
+        <td>2022-04-20  8:49pm</td>
+    </tr>
+    </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.1/js/dataTables.bootstrap5.js"></script>
+    <script>
+        new DataTable('#example');
+    </script>
+    </div>
+  </body>
+</html>
